@@ -1,4 +1,4 @@
-# Bootcamp Golang - GO Bases I - aula2
+# Bootcamp Golang - GO Bases I
 
 ## Exercício 1 - Imprimindo o nome na tela
 1. Crie uma aplicação que tenha uma variável “nome” e outra “idade”.
