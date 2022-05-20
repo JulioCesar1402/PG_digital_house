@@ -38,6 +38,8 @@ func main() {
 		case "A":
 			salario := calcSalary(horasTrabalhadas, 3000, 160, 50)
 			fmt.Println(salario)
+		default:
+			fmt.Println("Error")
 		}
 	}
 }
