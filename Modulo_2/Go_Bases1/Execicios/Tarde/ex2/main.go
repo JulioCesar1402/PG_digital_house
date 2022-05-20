@@ -24,7 +24,7 @@ import "fmt"
 // }
 
 func main() {
-	clientes := []map[string]interface{}{
+	clientes := []map[string]any{
 		{
 			"Nome":      "João",
 			"Idade":     21,
