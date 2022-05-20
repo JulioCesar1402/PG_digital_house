@@ -27,19 +27,9 @@ func main() {
 	fmt.Printf("Federico tem %d anos\n", employees["Federico"])
 
 	// Part 4
-	fmt.Println("With Pedro:")
-	listEmployees(employees)
+	fmt.Println("With Pedro:", employees)
 
 	delete(employees, "Pedro")
 
-	fmt.Println("Without Pedro:")
-	listEmployees(employees)
-}
-
-func listEmployees(listOfEmployees map[string]int) {
-	var employeesName []string
-	for name := range listOfEmployees {
-		employeesName = append(employeesName, name)
-	}
-	fmt.Println(employeesName)
+	fmt.Println("Without Pedro:", employees)
 }
