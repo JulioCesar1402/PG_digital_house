@@ -1,0 +1,22 @@
+[
+    {
+        "Id": 2,
+        "Name": "MacBook",
+        "Color": "White",
+        "Price": 10000,
+        "Stock": 50,
+        "Code": "W#$ED%R%",
+        "Published": true,
+        "Date": "May 27, 2022"
+    },
+    {
+        "Id": 3,
+        "Name": "Fifine",
+        "Color": "Black",
+        "Price": 270,
+        "Stock": 320,
+        "Code": "u889\u0026uy",
+        "Published": false,
+        "Date": "May 27, 2022"
+    }
+]
